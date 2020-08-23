@@ -1,0 +1,13 @@
+Package: MGF
+Type: Package
+Title: Moment and Cumulant Generating Functions and their Derivatives.
+Version: 0.1.0
+Author: Alexander Nel <alexandernel14@yahoo.com>
+Maintainer: Alexander Nel <alexandernel14@yahoo.com>
+Description: Contains the MGF and CGFs of various distributions commonly used.
+    Allows the user to also easily calculate the moments for said distributions whilst specifiying the parameters for those distributions.
+    This Package was created specifically for the viewers of the YouTube channel Boer Commander and the statistics videos therein.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
