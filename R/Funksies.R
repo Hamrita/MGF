@@ -56,8 +56,8 @@ mgf <- function(distribution){
   else if (distribution == "Poisson"){
     return("exp(lambda*(exp(t)-1))")
   }
-  else if (distribution == "Chi-Square"){
-    return("(1-2t)^(-k/2)")
+  else if (distribution == "Chi-Square" || distribution == "Chi Square"){
+    return("(1-2*t)^(-k/2)")
   }
 }
 #'Cumulant Generating Function.
@@ -96,8 +96,8 @@ cgf <- function(distribution){
   else if (distribution == "Poisson"){
     return("lambda*(exp(t)-1)")
   }
-  else if (distribution == "Chi-Square"){
-    return("log((1-2t)^(-k/2))")
+  else if (distribution == "Chi-Square" || distribution == "Chi Square"){
+    return("log((1-2*t)^(-k/2))")
   }
 }
 
